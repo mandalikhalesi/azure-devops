@@ -1,5 +1,8 @@
 import click
 
+#add unknown variable to throw the linter
+var=
+
 @click.command(help="This is just a hello app. It does nothing.")
 @click.option("--name", prompt="I need your name", help="Need name")
 @click.option("--color", prompt="I need your color", help="This is your color")
